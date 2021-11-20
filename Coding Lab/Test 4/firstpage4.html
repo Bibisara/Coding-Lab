@@ -1,0 +1,187 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>Тест диагностики межличностных отношений</title>
+    <style>
+        
+        body{
+        	background-image: url(https://images.unsplash.com/photo-1620911198969-b6bfa66ac09d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+            padding-bottom: 60px;
+        }
+        h1{
+            letter-spacing: 5px;
+            font-size: 37px;
+            font-family: cursive;
+            font-weight: bold;
+            padding: 10px;
+        }
+        .description{
+            letter-spacing: 2px;
+            font-size: 21px;
+            font-family: cursive;
+            padding:10px;
+            font-weight: lighter;
+            color: black;
+            margin-right: 100px;
+            margin-left:100px;
+        }
+        .author{
+            text-align: right;
+            padding-top: 20px;
+            font-weight: bold;
+            font-size: 22px;
+            color: black;
+            font-family: cursive;
+            margin-right: 100px;
+            margin-left:100px;
+        }
+        
+
+		.lntitle {
+		    display: flex;
+		    justify-content: space-between;
+		    align-items: center;
+		    margin: 50px 0px 10px 0px;
+		    padding-right: 100px;
+		    padding-left: 100px;
+		}
+		.lntitle_line {
+		    background: white;
+		    height: 2px;
+		    width: 100%;
+		}
+		.lntitle_text {
+		    font-variant: small-caps;
+		    color: black;
+		    padding: 0 10px;
+		    letter-spacing: 3px;
+		    font-size: 24px;
+		    font-family: cursive;
+		    font-weight: bold;
+
+		}
+		.testRules {
+		    border-bottom: 3px solid white;
+		    padding: 10px;
+		    margin-bottom: 50px;
+		    padding-bottom: 30px;
+		    margin-left:100px;
+		    margin-right: 100px;
+		    font-size: 18px;
+		    font-family: cursive;
+		    font-weight: normal;
+		}
+		nav ul {
+		    list-style-type: none;
+		    margin: 0;
+		    padding: 0;
+
+		}
+		nav ul li {
+		    --c: black;
+		    color: var(--c);
+		    font-size: 18px;
+		    border: 0.3em solid var(--c);
+		    border-radius: 0.5em;
+		    width: 12em;
+		    height: 3em;
+		    text-transform: uppercase;
+		    font-weight: bold;
+		    font-family: sans-serif;
+		    letter-spacing: 0.1em;
+		    text-align: center;
+		    line-height: 3em;
+		    position: relative;
+		    overflow: hidden;
+		    z-index: 1;
+		    transition: 0.5s;
+		    margin: 1em;
+		}
+
+		nav ul li span {
+		    position: absolute;
+		    width: 25%;
+		    height: 100%;
+		    background-color: var(--c);
+		    transform: translateY(150%);
+		    border-radius: 50%;
+		    left: calc((var(--n) - 1) * 25%);
+		    transition: 0.5s;
+		    transition-delay: calc((var(--n) - 1) * 0.1s);
+		    z-index: -1;
+		}
+		.start a{
+		    color: black;
+		    text-decoration: none;
+		}
+		nav ul li a:hover {
+		    color: white;
+		    background-color: black;
+		}
+
+		nav ul li:hover span {
+		    transform: translateY(0) scale(2);
+		}
+
+		nav ul li span:nth-child(1) {
+		    --n: 1;
+		}
+		nav ul li span:nth-child(2) {
+		    --n: 2;
+		}
+
+		nav ul li span:nth-child(3) {
+		    --n: 3;
+		}
+
+		nav ul li span:nth-child(4) {
+		    --n: 4;
+		}
+    </style>
+<body>
+       <center>
+                <h1>Тест диагностики межличностных отношений</h1>
+        </center>
+                <div class="lntitle">
+                    <div class="lntitle_line"> </div>
+                    <div class="lntitle_text">Инструкция</div>
+                    <div class="lntitle_line"></div>
+                </div>
+                <div class="testRules"><p>
+Вам предлагается опросник.
+</p><p>
+Опросник содержит 128 оценочных суждений, каждое из которых имеет 2 ответа.
+</p>
+<p>
+Ваша задача: 
+<br>• прочесть каждое из суждений;
+<br>• выбрать знак "+" против тех определений, которые соответствуют вашему представлению о себе(если нет полной уверенности, знак "+" не выбирать).
+</p>
+<p>
+Отвечайте откровенно, подолгу не задумываясь над ответами.
+</p>
+</div>
+        <center>
+                <nav><ul><li class="start"><a href="test4.html">Начать тест
+                    <span></span><span></span><span></span><span></span>
+                </a></li></ul></nav>
+        </center>
+            <div class="description">
+                <p>Типы отношения к окружающим:</p>
+                <ul>
+                    <li>Авторитарный</li>
+                    <li>Эгоистический</li>
+                    <li>Агрессивный</li>
+                    <li>Подозрительный</li>
+                    <li>Подчиняемый</li>
+                    <li>Зависимый</li>
+                    <li>Дружелюбный</li>
+                    <li>Альтруистический</li>
+                </ul>
+                <p>Качественный анализ полученных данных проводится путем сравнения дискограмм, демонстрирующих различие между представлениями разных людей. С. В. Максимовым приведены индексы точности рефлексии, дифференцированности восприятия степени благополучности положения личности в группе, степени осознания личностью мнения группы, значимости группы для личности.</p>
+                <p>Методический прием позволяет изучать проблему психологической совместимости и часто используется в практике семейной консультации, групповой психотерапии и социально-психологического тренинга.</p>
+            </div>
+            <div class="author"><p>Автор теста:  Өндіріс Бибісара </p></div>
+</body>
+</head>
+</html>
